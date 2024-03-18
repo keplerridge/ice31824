@@ -1,0 +1,63 @@
+body {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    background-color: EFEFEF;
+    width: 70%;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 15% 50% 20% 15%;
+    width: 70%;
+    height: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    grid-column: 1/2;
+    border-radius: 50%;
+    align-self: center;
+    justify-self: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    color: #646464;
+    font-family: sans-serif;
+}
+
+header h2 {
+    margin: 0;
+    padding: 0;
+    color: #DFE3EA;
+    font-family: sans-serif;
+    justify-self: end;
+}
+
+header i {
+    justify-self: center;
+    align-self: center;
+}
+
+.hero-section {
+    width: 70%;
+}
+
+.hero-section img {
+    width: 100%;
+}
+
+.inner-section {
+    width: 100%;
+    height: 15%;
+    display: grid;
+}
